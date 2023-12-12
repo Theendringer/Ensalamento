@@ -317,17 +317,18 @@ const MeuComponente = () => {
                 <td>{desafio.horario}</td>
                 <td>{desafio.sala}</td>
                 <td>
+                  
+                  <Button className='mx-2'
+                    variant="warning"
+                    onClick={() => editarDesafio(desafio.id)}
+                  >
+                    Editar
+                  </Button>
                   <Button
                     variant="danger"
                     onClick={() => excluirDesafio(desafio.id)}
                   >
                     Excluir
-                  </Button>
-                  <Button className='mx-2'
-                    variant="info"
-                    onClick={() => editarDesafio(desafio.id)}
-                  >
-                    Editar
                   </Button>
                 </td>
               </tr>

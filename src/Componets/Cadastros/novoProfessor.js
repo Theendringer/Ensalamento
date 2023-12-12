@@ -134,17 +134,17 @@ const MeuComponente = () => {
               <td>{professor.matricula}</td>
               <td>{professor.telefone}</td>
               <td>
+              <Button className='mx-2'
+                  variant="warning"
+                  onClick={() => editarProfessor(professor.id)}
+                >
+                  Editar
+                </Button>
                 <Button
                   variant="danger"
                   onClick={() => excluirProfessor(professor.id)}
                 >
                   Excluir
-                </Button>
-                <Button className='mx-2'
-                  variant="info"
-                  onClick={() => editarProfessor(professor.id)}
-                >
-                  Editar
                 </Button>
               </td>
             </tr>

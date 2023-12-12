@@ -146,17 +146,17 @@ const MeuComponente = () => {
               <td>{sala.predio}</td>
               <td>{sala.numeroCadeira}</td>
               <td>
+              <Button className='mx-2'
+                  variant="warning"
+                  onClick={() => editarSala(sala.id)}
+                >
+                  Editar
+                </Button>
                 <Button
                   variant="danger"
                   onClick={() => excluirSala(sala.id)}
                 >
                   Excluir
-                </Button>
-                <Button className='mx-2'
-                  variant="info"
-                  onClick={() => editarSala(sala.id)}
-                >
-                  Editar
                 </Button>
               </td>
             </tr>
