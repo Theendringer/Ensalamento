@@ -14,11 +14,13 @@ function BasicExample() {
             <Nav.Link href="/">Inicio</Nav.Link>
             <Nav.Link href="/calendario">Calendario</Nav.Link>
             <NavDropdown title="Cadastros" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/cursos">Cursos</NavDropdown.Item>
-              <NavDropdown.Item href="/desafios">Desafios</NavDropdown.Item>
-              <NavDropdown.Item href="/periodos">Periodos</NavDropdown.Item>
-              <NavDropdown.Item href="/professores">Professores</NavDropdown.Item>
+              <NavDropdown.Item href="/novoCurso">Curso</NavDropdown.Item>
+              <NavDropdown.Item href="/novoPeriodo">Periodo</NavDropdown.Item>
+              <NavDropdown.Item href="/novoProfessor">Professor</NavDropdown.Item>
               <NavDropdown.Item href="/salas">Salas</NavDropdown.Item>
+              <NavDropdown.Item href="/desafios">Desafios</NavDropdown.Item>
+              
+
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
