@@ -117,7 +117,6 @@ const MeuComponente = () => {
         </Button>
 
       <Table striped bordered className='my-5'>
-        {/* Conteúdo da tabela aqui */}
         <thead>
           <tr>
             <th>#</th>

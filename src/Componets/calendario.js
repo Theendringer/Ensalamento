@@ -51,7 +51,7 @@ function Calendar() {
   };
 
   const year = 2023;
-  const month = 10; // Mês 10 representa novembro (0-based index)
+  const month = 10; // Mes 10, index começa em 0
   const daysInMonth = getDaysInMonth(year, month);
   let firstDay = getFirstDayOfMonth(year, month);
 
@@ -121,9 +121,9 @@ function Calendar() {
                         key={index}
                         style={{
                           cursor: 'pointer',
-                          backgroundColor: 'pink', // Substitua 'cor-aqui' pela cor desejada
-                          padding: '2px', // Adiciona espaçamento interno ao redor do texto
-                          borderRadius: '5px', // Arredonda as bordas do fundo
+                          backgroundColor: 'pink', 
+                          padding: '2px', 
+                          borderRadius: '5px',
                         }}
                         onClick={() => handleChallengeClick(challenge)}
                       >

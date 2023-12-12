@@ -72,7 +72,6 @@ const MeuComponente = () => {
     setEditId(id);
   };
 
-  // Estado para armazenar os cursos
 
   useEffect(() => {
     const periodosSalvos = JSON.parse(localStorage.getItem('dadosPeriodos')) || [];

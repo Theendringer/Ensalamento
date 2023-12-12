@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Navbar from './navbar'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 function DarkVariantExample() {
